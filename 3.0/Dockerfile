@@ -14,7 +14,7 @@ RUN \
 ## Environments
 ENV PATH       /usr/share/nexus/bin:$PATH
 
-EXPOSE 443 5000 8081 
+EXPOSE 8081 15000 15001
 
 VOLUME ["/usr/share/nexus/data"]
 
