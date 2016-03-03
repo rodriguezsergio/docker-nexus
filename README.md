@@ -1,6 +1,6 @@
-## ThoughtWorks Docker Image: nexus
+## Fork of ThoughtWorks Docker Image: nexus
 
-[![](http://dockeri.co/image/baselibrary/nexus)](https://registry.hub.docker.com/u/baselibrary/nexus/)
+Original Dockerfile: https://registry.hub.docker.com/u/baselibrary/nexus
 
 ### Base Docker Image
 
@@ -9,8 +9,8 @@
 
 ### Installation
 
-    docker pull baselibrary/nexus
+    docker pull srodrig1/docker-nexus
 
 ### Usage
 
-    docker run -it --rm baselibrary/nexus
+    docker run -P -d srodrig1/docker-nexus
